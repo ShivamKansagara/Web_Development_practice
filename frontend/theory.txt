@@ -1,5 +1,17 @@
---->  size units
-1px --> 1/96th inch
-1px --> 1/72th inch
-1em --> 100% of parent
-1rem --> 100% of root
+Notes...
+
+---> size units
+
+1px                 --> 1/96th inch
+1px                 --> 1/72th inch
+1em                 --> 100% of parent
+1rem                --> 100% of root
+
+
+---> Positioning
+Static              --> HTML default flow.
+Relative            --> Postion relative to default position.
+Absolute            --> Position relative to nearest positioned ancestor or top left corner of webpage.
+z-index             --> which element will be above which element in html (higher the value of index then above from smaller value elements).
+Fixed               ---> Postion relative to top left corner of the browser window.
+
