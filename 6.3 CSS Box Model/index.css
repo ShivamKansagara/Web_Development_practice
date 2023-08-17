@@ -1,0 +1,26 @@
+.div1 {
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 0px;
+}
+p{
+    margin: 0;
+}
+.div2 {
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    border: solid black;
+    border-width: 20px 10px;
+    margin-left: 260px;
+}
+.div3 {
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    background-color: indianred;
+    margin-left: 40px;
+}
