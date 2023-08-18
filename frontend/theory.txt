@@ -15,3 +15,13 @@ Absolute            --> Position relative to nearest positioned ancestor or top 
 z-index             --> which element will be above which element in html (higher the value of index then above from smaller value elements).
 Fixed               ---> Postion relative to top left corner of the browser window.
 
+---> dislpay
+inline
+block 
+inline-block
+
+---> Responsive Websites
+Media Queries
+CSS grid
+CSS flexbox
+External Frameworks (Bootstrap).
