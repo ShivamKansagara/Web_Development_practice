@@ -25,3 +25,7 @@ Media Queries
 CSS grid
 CSS flexbox
 External Frameworks (Bootstrap).
+
+---> flexbox
+link (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+link(https://appbrewery.github.io/flexboxfroggy/)
