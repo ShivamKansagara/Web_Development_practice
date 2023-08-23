@@ -1,5 +1,8 @@
 Notes...
 
+link to resources (https://www.appbrewery.co/p/web-development-course-resources)
+
+
 ---> size units
 
 1px                 --> 1/96th inch
