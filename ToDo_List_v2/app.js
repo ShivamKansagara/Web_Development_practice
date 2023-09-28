@@ -10,17 +10,20 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/todolistdb", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(
+    "mongodb+srv://shivamkansagara1:todo@cluster1.wmask1u.mongodb.net/todolistdb", // Remove the write concern from the connection string
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      w: "majority", // Set the write concern mode here
+    }
+  )
   .then(() => {
     console.log("Connected to MongoDB");
   })
   .catch((error) => {
     console.error("Error connecting to MongoDB:", error);
   });
-
 const todoschema = mongoose.Schema({
   name: String,
 });
